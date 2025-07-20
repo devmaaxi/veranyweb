@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VeranyNET | Bug Report</title>
+
+    <link rel="stylesheet" href="../../../../../cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link rel='stylesheet prefetch'
+          href='../../../../../maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/apply.css">
+    <link rel="stylesheet" href="../../css/navigation.css">
+    <link rel="stylesheet" href="../../css/font-awesome-4.7.0/css/font-awesome.min.html">
+    <script src="../../../../../ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Megrim" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Titillium+Web" rel="stylesheet">
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/scrolling.js"></script>
+    <script src="../../js/responsive.js"></script>
+
+    <link rel="shortcut icon" type="img/VLogo.png" href="../../img/VLogo.ico">
+</head>
+
+<body>
+<div class="page">
+    <main class="content">
+        <div class="navbar navbar-static-top transparent">
+            <div class="links">
+                <div class="open"><span class="cls"></span> <span>
+                      <ul class="sub-menu ">
+                            <li> <a href="https://67865-97454.ws3.pph-server.de/projects/index.html#about">Über uns</a> </li>
+                            <li> <a href="https://67865-97454.ws3.pph-server.de/projects/index.html#achievments">Leistungen</a> </li>
+                            <li> <a href="https://67865-97454.ws3.pph-server.de/projects/index.html#modi">Spielmodi</a> </li>
+                            <li> <a href="../index.html">Support</a> </li>
+                            <li> <a href="../../apply/index.html">Bewerben</a> </li>
+                      </ul>
+                      </span>
+                    <span class="cls"></span></div>
+                <ul class="nav navbar-nav custom">
+                    <li>
+                        <div class="custom">
+                            <a href="../../index.html"><p class="nv">Startseite</p></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="custom">
+                            <img src="../../img/VeranyLogo.png" alt="Logo" class="VLogo">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="custom">
+                            <a href="../index.html"><p class="nv" style="padding-right: 5px;">Support</p></a>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+
+
+        </div>
+        <div class="bounceInUp">
+            <div class="bg-color">
+                <div class="container" align="center">
+                    <div class="row">
+                        <div class="apply-box">
+                            <p class="apply-header"><span>Bug</span> Report</p>
+                            <p class="apply-subtitle">Mit diesem Formular kannst du uns Bugs melden</p><br>
+                            <form id="entbannung" method="post"
+                                  action="https://web/projects/verany/support/includes/bugreport.php">
+                                <p class="information">Dein Ingame-Name:<font style="color: red;"> *</font></p>
+                                <div class="form-group">
+                                    <label for="username"></label><input type="text" class="form-control"
+                                                                         name="username" id="username"
+                                                                         placeholder="Bitte gib deinen Benutzernamen ein"
+                                                                         style="width: 600px; border-radius: 30px;"
+                                                                         required autofocus>
+                                    <br>
+                                    <p class="information">Bitte beschreibe den Fehler so genau wie möglich:<font
+                                            style="color: red;"> *</font></p><br>
+                                    <label for="beschreibung"></label><textarea name="beschreibung" rows="5" cols="80"
+                                                                                id="beschreibung"
+                                                                                class="form-control"
+                                                                                placeholder="Bitte beschreibe den Fehler / Bug so genau wie möglich"
+                                                                                style="width: 600px; border-radius: 10px;"
+                                                                                required></textarea>
+                                    <p class="information">Auf welchem Server ist dir der Bug aufgefallen?<font
+                                            style="color: red;"> *</font></p><br>
+                                    <label for="location"></label><input type="text" class="form-control"
+                                                                         name="location" id="location"
+                                                                         placeholder="Bitte gib den genauen Servernamen an (/whereami)"
+                                                                         style="width: 600px; border-radius: 30px;"
+                                                                         required autofocus>
+                                    <br>
+                                    <p class="information">Wann ist dir der Fehler aufgefallen?<font
+                                            style="color: red;"> *</font></p><br>
+                                    <label for="time"></label><input type="text" class="form-control" name="time"
+                                                                     id="time"
+                                                                     placeholder="Bitte gib eine Uhrzeit mit Datum an"
+                                                                     style="width: 600px; border-radius: 30px;" required
+                                                                     autofocus>
+                                    <br>
+                                    <p class="information">Weitere Informationen (Video-Link, Screenshot etc.)</p><br>
+                                    <label for="info"></label><textarea name="info" rows="5" cols="80" id="info"
+                                                                        class="form-control"
+                                                                        placeholder=""
+                                                                        style="width: 600px; border-radius: 10px;"
+                                                                        required></textarea>
+                                    <label><input type="checkbox" name="verify" id="verify" required>
+                                        <font face="Titillium Web, sans-serif" size="3" style="color: black;"> Hiermit
+                                            bestätige ich alle Felder wahrheitsgemäß ausgefüllt zu haben.<font
+                                                    style="color: red;"> *</font></font></label>
+                                    <p><font face="Josefin Sans, sans-serif" size="3" style="color: black;"><font
+                                            style="color: red;"> *</font> markierte Felder sind Pflichtfelder und somit
+                                        verbindlich zum Ausfüllen.</font></p>
+                                    <div class="g-recaptcha"
+                                         data-sitekey="6LeHtC8UAAAAAEEPrIMVu3Q1u8QVSW27CJZxZT4S"></div>
+                                    <div id="response"></div>
+                                    <div id="message"></div>
+                                    <input class="absenden" id="submit" type="submit" name="submit"
+                                           value="Bugreport abschicken"/>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                        <p id="copy"><span><i class="fa fa-code" aria-hidden="true"></i></span> Cykalele</p><br>
+                        <p class="thick"><span>&copy</span> 2022 Verany Network</p><br>
+                        <a href="../impressum.html"><p id="impress">Impressum</p></a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="../../admin.html">
+                            <button type="button" class="absenden" name="login" style="font-size: 13px; float: right;">
+                                Admin-Panel
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src='../../../../../cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="../js/index.html"></script>
+</body>
+</html>

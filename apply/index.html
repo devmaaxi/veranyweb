@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VeranyNET | Minecraft Network</title>
+
+    <link rel="stylesheet" href="../../../../cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link rel='stylesheet prefetch'
+          href='../../../../maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/apply.css">
+    <link rel="stylesheet" href="../css/navigation.css">
+    <link rel="stylesheet" href="../css/font-awesome-4.7.0/css/font-awesome.min.html">
+    <script src="../../../../ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Megrim" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Titillium+Web" rel="stylesheet">
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/scrolling.js"></script>
+    <script src="../js/responsive.js"></script>
+
+    <link rel="shortcut icon" type="img/VLogo.png" href="../img/VLogo.ico">
+</head>
+
+<body>
+<div class="page">
+    <main class="content">
+        <div class="navbar navbar-static-top transparent">
+            <div class="links">
+                <div class="open"><span class="cls"></span> <span>
+                      <ul class="sub-menu ">
+                            <li> <a href="https://67865-97454.ws3.pph-server.de/projects/index.html#about">Über uns</a> </li>
+                            <li> <a href="https://67865-97454.ws3.pph-server.de/projects/index.html#achievments">Leistungen</a> </li>
+                            <li> <a href="https://67865-97454.ws3.pph-server.de/projects/index.html#modi">Spielmodi</a> </li>
+                            <li> <a href="../support/index.html">Support</a> </li>
+                            <li> <a href="#">Bewerben</a> </li>
+                      </ul>
+                      </span>
+                    <span class="cls"></span></div>
+                <ul class="nav navbar-nav custom">
+                    <li>
+                        <div class="custom">
+                            <a href="../index.html"><p class="nv">Startseite</p></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="custom">
+                            <img src="../img/VeranyLogo.png" alt="Logo" class="VLogo">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="custom">
+                            <a href="../support/index.html"><p class="nv" style="padding-right: 5px;">Support</p></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="bounceInUp">
+            <div class="bg-color">
+                <div class="container" align="center">
+                    <div class="row">
+                        <div class="apply-box">
+                            <p class="apply-header"><span>Bewerbungs</span>formular</p>
+                            <p class="apply-subtitle">Fülle folgenden Formular aus um dich bei uns zu bewerben.</p><br>
+
+                            <form id="apply" method="post"
+                                  action="https://web/projects/verany/apply/includes/apply.php">
+                                <p class="information">Nutzername:<font style="color: red;"> *</font></p>
+                                <div class="form-group">
+                                    <label for="username"></label><input type="text" class="form-control" name="username" id="username"
+                                                                         placeholder="Bitte gib deinen Benutzernamen ein"
+                                                                         style="width: 600px; border-radius: 30px;" required autofocus>
+                                    <br>
+                                    <p class="information">Kontaktmöglichkeit:<font style="color: red;"> *</font></p>
+                                    <label for="kontaktmoeglichkeit"></label><input type="email" class="form-control" name="name" id="kontaktmoeglichkeit"
+                                                                                    placeholder="Bitte gib deine Email-Adresse ein"
+                                                                                    style="width: 600px; border-radius: 30px;" required>
+                                    <br>
+                                    <p class="information">Für welchen der folgenden Ränge möchtest du dich
+                                        bewerben?<font style="color: red;"> *</font></p>
+                                    <div class="checkbox" id="checkbox">
+                                        <label class="radio-inline"><input type="radio" id="Builder" name="rank"
+                                                                           value="Builder"/><font
+                                                face="Titillium Web, sans-serif" size="3" style="color: black;">
+                                            Builder</font></label>
+                                        <label class="radio-inline"><input type="radio" id="Supporter" name="rank"
+                                                                           value="Supporter"/><font
+                                                face="Titillium Web, sans-serif" size="3" style="color: black;">
+                                            Supporter</font></label>
+                                        <label class="radio-inline"><input type="radio" id="Entwickler" name="rank"
+                                                                           value="Entwickler"/><font
+                                                face="Titillium Web, sans-serif" size="3" style="color: black;">
+                                            Entwickler</font></label>
+                                    </div>
+                                    </br>
+                                    <p class="information">Bitte stelle dich vor:<font style="color: red;"> *</font></p>
+                                    <br>
+                                    <label for="vorstellung"></label><textarea name="vorstellung" rows="5" cols="80" id="vorstellung"
+                                                                               class="form-control" placeholder="Bitte stelle dich vor. . ."
+                                                                               style="width: 600px; border-radius: 10px;" required></textarea>
+                                    </br>
+                                    <p class="information">Bitte erläutere deine Stärken und Schwächen:<font
+                                            style="color: red;"> *</font></p><br>
+                                    <label for="staerken"></label><textarea name="staerken" rows="5" cols="80" id="staerken" class="form-control"
+                                                                            placeholder="Bitte nenne deine Stärken sowie Schwächen. . ."
+                                                                            style="width: 600px; border-radius: 10px;" required></textarea>
+                                    <p class="information">Welche Erfahrungen konntest du bereits sammeln?<font
+                                            style="color: red;"> *</font></p><br>
+                                    <label for="experience"></label><textarea name="experience" rows="5" cols="80" id="experience" class="form-control"
+                                                                              placeholder="Bitte beschreibe deine bisher gesammelten Erfahrungen. . ."
+                                                                              style="width: 600px; border-radius: 10px;" required></textarea>
+                                    <p class="information">Grund deiner Bewerbung:<font style="color: red;"> *</font>
+                                    </p><br>
+                                    <label for="reason"></label><textarea name="reason" rows="5" cols="80" id="reason" class="form-control"
+                                                                          placeholder="Warum bewirbst du dich ausgerechnet bei Verany.net?"
+                                                                          style="width: 600px; border-radius: 10px;" required></textarea>
+                                    <label><input type="checkbox" name="verify" id="verify" required>
+                                        <font face="Titillium Web, sans-serif" size="3" style="color: black;"> Hiermit
+                                            bestätige ich alle Felder wahrheitsgemäß ausgefüllt zu haben.<font
+                                                    style="color: red;"> *</font></font></label>
+                                    <p><font face="Titillium Web, sans-serif" size="3" style="color: black;">
+                                        Sollte deine Bewerbung uns überzeugen, werden wir uns über die oben angegebenen
+                                        Kontaktdaten bei dir melden!
+                                        <br>Bitte beachte, dass du im Falle einer Ablehnung keine Rückmeldung von uns
+                                        erhalten wirst!
+                                    </font></p>
+                                    <p><font face="Josefin Sans, sans-serif" size="3" style="color: black;"><font
+                                            style="color: red;"> *</font> markierte Felder sind Pflichtfelder und somit
+                                        verbindlich zum Ausfüllen.</font></p>
+                                    <div class="g-recaptcha"
+                                         data-sitekey="6LeHtC8UAAAAAEEPrIMVu3Q1u8QVSW27CJZxZT4S"></div>
+                                    <div id="response"></div>
+                                    <div id="message"></div>
+                                    <input class="absenden" id="submit" type="submit" name="submit"/>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                        <p id="copy"><span><i class="fa fa-code" aria-hidden="true"></i></span> Cykalele</p><br>
+                        <p class="thick"><span>&copy</span> 2022 Verany Network</p><br>
+                        <a href="../impressum.html"><p id="impress">Impressum</p></a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="../admin.html">
+                            <button type="button" class="absenden" name="login" style="font-size: 13px; float: right;">
+                                Admin-Panel
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src='../../../../cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="../js/index.js"></script>
+</body>
+</html>
